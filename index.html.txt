@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SparesVault - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to SparesVault</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="featured-products">
+            <h2>Featured Products</h2>
+
+            <div class="product">
+                <img src="images/product1.jpg" alt="Mahindra Spare Part">
+                <p><strong>Mahindra Tractor Spare Part</strong></p>
+                <p class="price">₹1,200</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/product2.jpg" alt="Mahindra Oil Filter">
+                <p><strong>Mahindra Tractor Oil Filter</strong></p>
+                <p class="price">₹850</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We provide original Mahindra tractor spare parts to keep your machines running smoothly. Browse our catalog for top-quality products!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SparesVault. All rights reserved.</p>
+    </footer>
+</body>
+</html>
